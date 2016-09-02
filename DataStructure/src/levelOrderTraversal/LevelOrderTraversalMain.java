@@ -3,6 +3,11 @@ package levelOrderTraversal;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ * Level Order Traversal for a Tree
+ * @author Raghav
+ *
+ */
 public class LevelOrderTraversalMain {
 
 	/**
