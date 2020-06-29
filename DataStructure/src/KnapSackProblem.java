@@ -17,6 +17,14 @@ public class KnapSackProblem {
 		//if bag has no capacity(W=0)
 		//or no items present in store (n=0)
 		//this case profit will be 0
+		//there are two case=> the current element weight is less than bag capacity
+				// recursion case=> include last item in bag and process rest of the elements 
+				//exclude last item from the bag and process rest of the element
+				// consider max of above 2
+		
+		// the current element weight is greater than bag capacity
+				// exlude this and process with next set of elements
+		
 		if(n==0||W==0){
 			return 0;
 		}
